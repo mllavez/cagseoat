@@ -1,0 +1,22 @@
+{
+    "name": "sneakybobito/google-url",
+    "type": "library",
+    "description": "Manipulate google searches and SERP",
+    "keywords": ["google","SERP"],
+    "homepage": "https://github.com/SneakyBobito/google-url",
+    "license": "BSD-3",
+    "authors": [
+        {
+            "name": "Soufiane Ghzal",
+            "email": "sghzal@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-0" : {
+            "GoogleUrl" : "lib/"
+        }
+    }
+}
